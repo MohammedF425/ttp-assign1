@@ -147,4 +147,41 @@ h2{
   a:hover {
     text-decoration: underline;
   }
+  input[type="radio"] {
+    appearance: none;
+    background-color: #fff;
+    font: inherit;
+    color: darkorchid;
+    width: 1.15em;
+    height: 1.15em;
+    border: 0.15em solid currentColor;
+    border-radius: 50%;
+}
 
+input[type="number"] {
+    background-color: #fff;
+    font: inherit;
+    border: 0.20em solid pink;
+}
+
+.donatation-main {
+    background-color: pink;
+    padding: 15px;
+    border: 1px solid black;
+    box-sizing: border-box;
+    border-radius: 10px;
+    flex: 3;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.info-main {
+    background-color: pink;
+    padding: 15px;
+    border: 1px solid black;
+    box-sizing: border-box;
+    border-radius: 10px;
+    flex: 3;
+    margin-left: 5px;
+    margin-right: 5px;
+}
