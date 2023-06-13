@@ -63,7 +63,6 @@ h2{
     margin-left: 5px;
     margin-right: 5px;
    }
-
 .logo-img {
     display: block;
     margin-left: auto;
@@ -72,8 +71,6 @@ h2{
     margin-top: 20px;
     margin-bottom: 20px;
 }
-
-
 .main_column {
     float: left;
     width: 70%;
@@ -88,7 +85,6 @@ h2{
 
 
 }
-
 .right_column {
     margin-left: 5px;
     margin-right: 5px;
@@ -102,9 +98,6 @@ h2{
     flex: 1;
 
 }
-    
-/**Footer CSS*/
-/* CSS Styling */
 .footer{
     background-color: rgba(240, 248, 255, 0.661);
     display: flex;
@@ -113,7 +106,6 @@ h2{
     margin-top: 20px;
     
 }
-
 .footer1 {
     text-align: left;
     display: flex;
@@ -122,29 +114,25 @@ h2{
     align-items: flex-start;
 
   }
-  
-  .container {
+.container {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
   }
-  .col1, .col2, .col3 {
+.col1, .col2, .col3 {
     list-style-type: none;
     padding: 0;
 
   }
-  
-  .col1 li, .col2 li,.col3 li {
+.col1 li, .col2 li,.col3 li {
     margin-bottom: 10px;
   }
-  
-  a {
+a {
     text-decoration: none;
     color: #333;
   }
-  
-  a:hover {
+a:hover {
     text-decoration: underline;
   }
 
