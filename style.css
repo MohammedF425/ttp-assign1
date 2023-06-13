@@ -9,9 +9,10 @@
 }
 .navbar {
     background-color: rgb(35, 35, 35);
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     border-radius: 20px;
+    margin-bottom: 50px;
 }
 .navbar a {
     color: aliceblue;
@@ -37,12 +38,15 @@
     color: aliceblue;
   }
 body {
-    background-color: pink; /*pink, purple, and pastel tones*/
+    background: rgb(204,247,255);
+    background: radial-gradient(circle, rgba(204,247,255,0.8477984943977591) 0%, rgba(255,199,249,1) 100%);
   }
 h1{
     text-align: center;
 }
-
+h2{
+    text-align: center;
+}
 .row{
     display: flex;
     width: 100%;  
@@ -59,6 +63,16 @@ h1{
     margin-left: 5px;
     margin-right: 5px;
    }
+
+.logo-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    mix-blend-mode: multiply;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
 
 .main_column {
     float: left;
@@ -92,10 +106,11 @@ h1{
 /**Footer CSS*/
 /* CSS Styling */
 .footer{
-    background-color: pink;
+    background-color: rgba(240, 248, 255, 0.661);
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-top: 20px;
     
 }
 
